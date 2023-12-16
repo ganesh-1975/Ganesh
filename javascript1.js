@@ -124,3 +124,44 @@ let arr4 = arr3.filter((ele) => {
 console.log(arr3);
 console.log(arr4.join("---"));
 console.log("3---2---0---0---4---76---89---22---0---53---79".split("---"));
+
+console.clear();
+
+let qes = "madam";
+
+// function isPalidrome(String) {
+//     let revString = String.split("").reverse().join("");
+
+//     return String === revString;
+//   }
+
+// function isPalidrome(String) {
+//   let revString = "";
+//   for (let i = 0; i < String.length; i++) {
+//     revString = String[i] + revString;
+//   }
+//   return String === revString;
+// }
+
+// function isPalidrome(String) {
+//     for (let i = 0; i < String.length; i++) {
+//       if (String[i] !== String[String.length - i - 1]) {
+//         return false;
+//       }
+//     }
+
+//     return true;
+//   }
+
+function isPalidrome(String) {
+  for (let i = 0; i < String.length; i++) {
+    console.log(String[i]);
+    if (String[i] !== String[String.length - i - 1]) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+console.log(isPalidrome(qes));
