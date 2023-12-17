@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">Resume Form</h1>
+    <br />
+
+    <form>
+      <div class="box1">
+        <div class="align">
+          <span><label>Name :</label></span>
+
+          <input type="text" required placeholder="Enter your Name" />
+        </div>
+
+        <br />
+
+        <div class="align">
+          <span><label>Email :</label></span> <input type="email" required />
+        </div>
+
+        <br />
+
+        <div class="align">
+          <span><label>Mobile number :</label></span>
+          <input type="number" required />
+        </div>
+      </div>
+
+      <div class="box2">
+        <label>CAREER OBJECTIVE</label>
+        <br />
+
+        <textarea></textarea>
+      </div>
+
+      <div class="box3">
+        <h3>Academic Profile</h3>
+        <div><label>Enter your College Name</label></div>
+        <div>
+          <input
+            type="text"
+            name="Enter your college Name"
+            placeholder="College Name"
+          />
+        </div>
+        <br />
+
+        <label>University</label>
+        <input type="text" name="University" placeholder="University Name" />
+        <br />
+
+        <label>Degree</label>
+        <select name="Degree">
+          <option value="B.E">BE</option>
+          <option value="BCA">BCA</option>
+          <option value="BSC">BSC</option>
+        </select>
+
+        <br />
+
+        <label>Branch</label>
+        <select name="Branch">
+          <option value="ECE">Electronics and Communication Engineering</option>
+          <option value="EEE">Electrical and Electronics Engineering</option>
+          <option value="CSC">Computer Science Engineering</option>
+        </select>
+        <br />
+
+        <label>stat year</label>
+        <input type="number" name="start year" value="2019" />
+
+        <label>end year</label>
+        <input type="number" name="end year" value="2023" />
+
+        <br />
+
+        <label>CGPA</label>
+        <input type="number" min="5" max="10" value="8.8" />
+      </div>
+
+      <div class="box4">
+        <h3>Projects</h3>
+        <h4>Project 1</h4>
+        <label>Project Name</label>
+        <input
+          type="text"
+          name="Project Name"
+          placeholder="Enter your project name"
+        />
+        <br />
+        <label>About Project</label>
+        <textarea></textarea>
+
+        <h4>Project 2</h4>
+        <label>Project Name</label>
+        <input
+          type="text"
+          name="Project Name"
+          placeholder="Enter your project name"
+        />
+        <br />
+        <label>About Project</label>
+        <textarea></textarea>
+
+        <h4>Project 2</h4>
+        <label>Project Name</label>
+        <input
+          type="text"
+          name="Project Name"
+          placeholder="Enter your project name"
+        />
+        <br />
+        <label>About Project</label>
+        <textarea></textarea>
+      </div>
+
+      <div class="box5">
+        <h3>Skills</h3>
+        <h4>Select atleast three skills</h4>
+        <input type="checkbox" name="HTML" value="HTML" />
+        <label> HTML </label>
+
+        <input type="checkbox" />
+        <label>CSS</label>
+
+        <input type="checkbox" />
+        <label>JAVASCRIPT</label>
+
+        <input type="checkbox" />
+        <label>TYPESCRIPT</label>
+
+        <input type="checkbox" />
+        <label>REACT</label>
+
+        <br />
+
+        <input type="checkbox" />
+        <label>ANGULAR</label>
+
+        <input type="checkbox" />
+        <label>SQL</label>
+
+        <input type="checkbox" />
+        <label>NODE</label>
+
+        <input type="checkbox" />
+        <label>FLASK</label>
+
+        <input type="checkbox" />
+        <label>PYTHON</label>
+      </div>
+
+      <div class="box6">
+        <h3>VOLUNTEERING EXPERIENCE</h3>
+        <label>organization</label>
+        <input type="text" name="organization" placeholder=" Ex : Red Cross" />
+        <br />
+
+        <label>Role</label>
+        <input
+          type="text"
+          name="Role"
+          placeholder=" Ex : Fundraising Volunteer"
+        />
+        <br />
+
+        <label>Cause</label>
+        <select name="Cause">
+          <option value="please Select">please Select</option>
+          <option value="arts and culture">arts and culture</option>
+          <option value="children">children</option>
+          <option value="education">education</option>
+          <option value="environment">environment</option>
+          <option value="health">health</option>
+          <option value="Politics">Politics</option>
+          <option value="Social Service">Social Service</option>
+        </select>
+        <br />
+
+        <input
+          type="checkbox"
+          value="I am currently volunteering in this Role"
+        />
+        <label>I am currently volunteering in this Role</label>
+        <br />
+
+        <label>stat year</label>
+        <input type="number" name="start year" value="2019" />
+
+        <label>end year</label>
+        <input type="number" name="end year" value="2023" />
+
+        <label>Description</label>
+        <input
+          type="text"
+          name="Description"
+          placeholder=" Ex : I raised funds 5k"
+        />
+        <br />
+      </div>
+
+      <div class="box7">
+        <h3>Work Experienced</h3>
+        <label>Title</label>
+        <input
+          type="text"
+          required
+          name="Title"
+          placeholder="Ex : Sales Manager"
+        />
+        <br />
+
+        <label>Company Name</label>
+        <input
+          type="text"
+          required
+          name="Company Name"
+          placeholder="Ex : Byju's "
+        />
+        <br />
+
+        <label>Location</label>
+        <input
+          type="text"
+          required
+          name="Location"
+          placeholder="Ex : Chennai"
+        />
+        <br />
+
+        <input type="checkbox" value="I am currently working in this Role" />
+        <label>I am currently working in this Role</label>
+        <br />
+
+        <label>stat date</label>
+        <input type="date" name="start date" />
+
+        <label>end date</label>
+        <input type="date" name="end year" />
+        <br />
+
+        <label>Industry</label>
+        <select name="Industry">
+          <option value="IT">Information Technology</option>
+          <option value="edu">education</option>
+          <option value="Acc">Accounting</option>
+          <option value="Hospital">Hospital</option>
+          <option value="Government">Government</option>
+          <option value="Food">Food</option>
+          <option value="Travel">Travel</option>
+          <option value="Fitness and Wellness">Fitness and Wellness</option>
+        </select>
+        <br />
+
+        <label>Description</label>
+        <input type="text" required name="Description" />
+        <br />
+
+        <h4>Skills</h4>
+        <h5>Select atleast three skills</h5>
+        <input type="checkbox" name="HTML" value="HTML" />
+        <label> HTML </label>
+
+        <input type="checkbox" />
+        <label>CSS</label>
+
+        <input type="checkbox" />
+        <label>JAVASCRIPT</label>
+
+        <input type="checkbox" />
+        <label>TYPESCRIPT</label>
+
+        <input type="checkbox" />
+        <label>REACT</label>
+
+        <br />
+
+        <input type="checkbox" />
+        <label>ANGULAR</label>
+
+        <input type="checkbox" />
+        <label>SQL</label>
+
+        <input type="checkbox" />
+        <label>NODE</label>
+
+        <input type="checkbox" />
+        <label>FLASK</label>
+
+        <input type="checkbox" />
+        <label>PYTHON</label>
+      </div>
+
+      <div class="box8">
+        <h3>LANGUAGE</h3>
+        <label>Language</label>
+        <input type="text" name="Language" />
+        <br />
+
+        <label>Proficiency</label>
+        <select name="Proficiency">
+          <option value="Elementry">Elementry</option>
+          <option value="Limited Working">Limited Working</option>
+          <option value="Professional Working">Professional Working</option>
+          <option value="Full Professional">Full Professional</option>
+          <option value="Native">Native</option>
+        </select>
+      </div>
+
+      <div class="box9">
+        <h3>Personal Details</h3>
+        <label>Name :</label>
+        <input type="text" name="Name :" placeholder="enter your name" />
+        <br />
+
+        <label>Date of Birth</label>
+        <input type="date" name="Date of Birth" placeholder="enter your DOB" />
+        <br />
+
+        <label>Father Name</label>
+        <input type="text" name="Father Name" />
+        <br />
+      </div>
+
+      <button>Submit</button>
+    </form>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div>
+        <div class="inhertive">
+            <h1>abfaj</h1>
+            
+
+        </div>
+
+        <div class="inhertive">
+            sgnskjb
+
+        </div>
+    </div>
+
+
+  </body>
+
+</html>

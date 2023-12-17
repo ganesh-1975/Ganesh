@@ -1,0 +1,155 @@
+body {
+  margin: 0px;
+}
+
+*{
+  font-family: Roboto;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.temp_border {
+  border: 1px solid red;
+}
+
+.temp_main{
+  border: 1px solid red; #ece4db 
+  padding: 24px;
+}
+
+/* sidebar  */
+.sidebar {
+  background-color: #005149;
+  height: 100vh;
+  width: 180px ;!important
+  /* display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;  in another css file*/
+}
+
+.side_top {
+  height: 350px;
+  font-size: 0.875rem;
+  
+  
+
+}
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+button{
+  background: transparent;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+  gap: 0.5rem;
+  margin: 0px;
+
+}
+
+.icl{
+  display: flex;
+  align-items: center;
+  height: 36px;
+}
+
+.icon{
+  fill: #a7b9b6;
+  border-radius: 50%;
+  padding: 4px;
+  width: 40px;
+  height: 40px;
+}
+
+.label{
+  font-weight: 400;
+  color: #fff;
+  
+}
+
+.side_bottom {
+  height: 100px;
+
+}
+
+/* main  */
+.main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0px;
+  margin-right: 8px;
+  margin-left: 28px;
+  
+
+}
+
+
+.main_bar {
+  width: 864px;
+
+  /* flex-grow: 1; */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0px 8px;
+}
+
+.next {
+  height: 143px;
+  
+}
+
+.job {
+  height: 370px;
+  display: flex;
+  gap: 2%;
+}
+
+.job-1, .job-2{
+  width: 49%;
+}
+
+.pri {
+  height: 100px;
+}
+
+/* right bar  */
+.right_bar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 424px;
+  padding: 0px 8px;
+  
+
+  
+
+
+  
+}
+
+.date {
+    height: 335px;
+    
+    padding: 0px 8px;
+}
+
+.skill {
+    height: 316px;
+    padding: 0px 8px;
+
+}

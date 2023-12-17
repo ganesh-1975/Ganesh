@@ -1,0 +1,34 @@
+.box {
+  background-color: blueviolet;
+  border: 1px solid red;
+  height: 90px;
+  width: 90px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: silver;
+  height: calc(100vh - 100px);
+ /* justify-content: space-evenly; */
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.red-box {
+  background-color: red;
+}
+
+.blue-box {
+  background-color: blue;
+}
+
+.green-box {
+  background-color: green;
+}
+
+.orange-box {
+  background-color: orange;
+  align-self: center;
+  
+}

@@ -1,0 +1,294 @@
+* {
+    font-family: Montserrat;
+  }
+
+body {
+  margin: 0px;
+ 
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* main */
+.main {
+  width: 1920px;
+  /* flex-grow: 1; */
+  height: 1171px;
+  /* flex-shrink: 0; */
+  border-radius: 80px;
+  /* flex-shrink: 0; */
+  display: flex;
+  flex-direction: column;
+  background: rgba(30, 30, 30, 0.56);
+  background-image: url(skyscapper.png);
+  background: rgba(0, 0, 0, 0.5) url(skyscapper.png) lightgrey 50% cover no-repeat;
+  background-size: cover;
+
+ 
+}
+
+.header {
+  width: 1920px;
+  height: 139px;
+  flex-shrink: 0;
+  background: var(--primary, #fff);
+  display: flex;
+}
+
+.logo {
+  margin: 40px 0px;
+  margin-left: 60px;
+}
+
+.home {
+  color: #002163;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-left: 317px;
+  flex-shrink: 0;
+  
+
+
+}
+
+.call{
+  color: #fff;
+    font-family: Montserrat;
+    height: 32px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 39px;
+    background-color: #002163;
+    padding: 30px 72px;
+    margin-right: 46px;
+    justify-content: flex-end;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.use{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  height: 1032px;
+}
+
+.name{
+  width: 776px;
+  height: 804px !important;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: #FFF;
+  /* border: 2px solid red; */
+  margin-right: 164px;
+  margin-bottom: 168px;
+  
+  line-height: 40px;
+  /* padding: 50px; */
+  margin-top: 60px;
+
+  
+}
+
+.seller{
+  color: #FFF;
+font-family: Montserrat;
+font-size: 96px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 394px;
+height: 234px;
+/* border: 2px solid red; */
+margin-left: 235px;
+
+}
+
+
+
+
+.my_form input{
+  width: 628px !important;
+  height: 77px !important; 
+  border-radius: 13px;
+  background: #E8E8E8;
+  margin-bottom: 40px;
+  border: 0px;
+  margin-left: 72px;
+  padding: 0px;
+}
+
+.detail{
+  margin-top: 174px;
+
+  
+}
+
+.forget{
+  color: #000;
+font-family: Montserrat;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 242px;
+height: 32px;
+margin-left: 500px;
+}
+
+.not{
+  color: #000;
+font-family: Montserrat;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 50px;
+text-align: center;
+
+}
+
+.up{
+  width: 105px;
+
+  color: #fff;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 39px;
+    background-color: #002163;
+    padding: 14px 44px;
+    margin: 0px;
+    margin-left: 297px;
+    margin-top: 74px
+    
+
+}
+ 
+
+.footer{
+  
+  height: 740px ;
+  width: 1920px !important;
+}
+
+/* .foot_wrapper{
+  display: flex;
+  height: 307px !important;
+  border: 1px solid aqua;
+  flex-wrap: nowrap;
+
+} */
+
+.real{
+  width: 365px !important;
+  height: 307px ;
+
+  /* border: 1px solid red; */
+
+}
+
+.quick{
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin-top: 193px;
+  
+
+  
+  
+}
+
+.list{
+  list-style-type: none;
+  color: #6D6D6D;
+font-family: Montserrat;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 70px;
+
+
+}
+
+ul{
+  margin: 0px;
+padding: 0px;
+list-style-type: none;
+
+}
+
+ul li{
+  margin-bottom: 18px;
+}
+
+
+
+.blue{
+  color: #002163;
+font-family: Montserrat;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+.lorem{
+  width: 365px;
+height: 128px;
+flex-shrink: 0;
+color: #383838;
+font-family: Montserrat;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 50px;
+}
+
+.sm{
+  width: 50px;
+height: 49.766px;
+flex-shrink: 0;
+fill: #002163;  
+display: flex;
+gap: 40px;
+margin-left: 58px;
+}
+
+.hr{
+  width: 1750px;
+height: 3px;
+background: #002163;
+margin-left: 70px;
+margin-top: 82px;
+}
+
+.copy{
+  color: #383838;
+font-family: Montserrat;
+font-size: 26px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 30px;
+margin-left: 482px;
+}

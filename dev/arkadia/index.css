@@ -1,0 +1,276 @@
+* {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+}
+
+a{
+  color: #002163;
+  text-decoration: none;
+}
+
+
+
+body {
+  margin: 0px;
+}
+
+.page_wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.identify {
+  border: 1px solid red;
+}
+
+/* navbar  */
+.navbar_wrapper {
+  height: 15vh;
+  display: flex;
+  flex-wrap: nowrap;
+  background: var(--primary, #fff);
+}
+
+.real_logo {
+  padding: 25px 30px 30px 30px;
+}
+
+.navbar_icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #002163;
+  font-weight: 500;
+  width: 70vw;
+  font-size: 20px;
+  gap: 30px;
+  justify-content: flex-end;
+}
+
+.call_icon {
+  color: #fff;
+  font-weight: 500;
+  border-radius: 40px;
+  background-color: #002163;
+  padding: 15px 40px ;
+  justify-content: flex-end;
+  align-self: center;
+  margin-left: 30px;
+}
+
+/* main  */
+.main_wrapper {
+  height: 100vh;
+  margin-bottom: 100px;
+  background-color: silver;
+  border-radius:0px 0px 80px 80px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)) 0% 0% / cover no-repeat, url(skyscapper.png)
+  
+}
+
+.signup{
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+}
+
+.sign_up{   
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 700;
+  align-self: center;
+  width: 250px;
+}
+
+.signup_form{
+  width: 500px;
+  height: 550px;
+  border-radius: 40px;
+  background: #FFF;
+  justify-content: center;
+  align-self: center;
+}
+
+.my_form{
+  text-align: center;
+  margin-top: 70px;
+}
+
+.signup_form input{
+  width: 400px;
+  height: 50px; 
+  border-radius: 15px;
+  background: #E8E8E8; 
+  }
+
+  .form_group{
+    padding-bottom: 20px;
+  }
+  
+  .signup_icon{
+  width: 80px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 40px;
+  background-color: #002163;
+  padding: 15px 45px;
+  margin-left: 150px;
+  margin-top: 50px;
+  }
+
+  .newsletter{
+    height: 20vh;
+    width: 60%;
+    border-radius: 40px;
+    background: var(--secondary, #002163);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-self: center;
+    position: absolute;
+    bottom: -100px;
+  }
+  
+  
+  
+  .pic {
+    width: 300px;
+    height: 100px;
+    margin-top: 32px;
+    position: relative;
+  }
+  
+  .pic_1{
+    width: 280px;
+    height: 200px;
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+  }
+
+  .pic_1 img{
+    width: 280px;
+    height: 300px;
+  }
+
+  .subscribe {
+    width: 500px;
+    height: 110px;
+    margin-top: 25px;
+  }
+  
+  .newsletter_text{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    width: 340px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .mail_label {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+  }
+  
+  .label input {
+    width: 400px;
+    height: 55px;
+    border-radius: 15px;
+    background: #fff;
+  }
+  
+  .mail_icon {
+    width: 49px;
+    height: 49px;
+    padding: 4px 6px;
+    border-radius: 15px;
+    background: #fff;
+  }
+
+
+
+
+
+/* Footer  */
+
+.footer_wrapper {
+  height: 50vh;
+}
+
+.quick{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.list{
+  list-style-type: none;
+  color: #6D6D6D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 50px;
+  }
+
+  ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul li{
+  margin-bottom: 10px;
+  }
+
+  .blue{
+    color: #002163;
+    font-size: 20px;
+    font-weight: 700;
+}
+    .lorem{
+      width: 250px;
+      height: 80px;
+      color: #383838;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 20px;
+}
+
+.sm{
+  width: 20px;
+  height: 20px;
+  fill: #002163;  
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+}
+
+.hr{
+  width: 90vw;
+  height: 3px;
+  background: #002163;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+
+.logi{
+  align-self: center;
+}
+.copy{
+  color: #383838;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 450px;
+}
+

@@ -1,0 +1,97 @@
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    font-weight: normal;
+
+/*same as above*/
+
+    font: normal 15 arial, helvetica, sans-serif;
+
+    line-height: 3em;
+}
+
+.box1{
+    text-align: right;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.align{
+    text-align: left;
+}
+
+.box2{
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.box3{
+    width: 50%;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.box4{
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.box5{
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+    
+}
+
+.box6{
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.box7{
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.box8{
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.box9{
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+
+.inhertive{
+    display: inline;
+    width: 50%;
+    background-color: red;
+}
+

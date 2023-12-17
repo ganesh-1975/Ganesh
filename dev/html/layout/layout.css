@@ -1,0 +1,20 @@
+
+.wrapper {
+  display: flex;
+  background-color: silver;
+  height: calc(100vh - 100px);
+ 
+}
+
+
+.sidebar{
+  background-color: beige;
+  flex-basis: 300px;
+
+}
+
+.main{
+  background-color: aquamarine;
+  flex-grow: 1;
+
+}

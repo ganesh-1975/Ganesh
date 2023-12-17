@@ -1,0 +1,39 @@
+
+
+
+
+body{
+    background-color: silver;
+    
+
+}
+
+.red-box{
+    background-color: red;
+
+
+
+}
+
+.blue-box{
+    background-color: blue;
+
+}
+
+.green-box{
+    background-color: green;
+
+}
+
+
+.orange-box{
+    background-color: orange;
+
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: violet;
+    margin-bottom: 20px;
+}

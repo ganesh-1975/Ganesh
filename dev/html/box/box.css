@@ -1,0 +1,84 @@
+body {
+  background-color: silver;
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  background-color: aqua;
+  
+}
+
+.red-box {
+  background-color: red;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  
+}
+
+.blue-box {
+  background-color: blue !important;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  
+}
+
+.green-box {
+  background-color: green;
+  
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.orange-box {
+  background-color: orange;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  
+}
+
+.yellow-box{
+    background-color: yellow;
+    height: 50%;
+    width: 50%;
+    position: fixed;
+    left: 25%;
+    top: 25%;
+}
+
+#red {
+  background-color: brown;
+
+}
+
+.bx1{
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.bx2{
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.bx3{
+    background-color: white;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.bx4{
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
