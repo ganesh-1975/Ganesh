@@ -1,0 +1,697 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+  background: #f2f2f2;
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .navbar{
+    position: sticky;
+    top: 0;
+ } */
+
+.navWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.screen_size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 70px;
+}
+
+
+.navWrapper i{
+    font-size: 25px;
+    color: gray;
+}
+
+.box-1{
+    margin-top: 50px;
+}
+
+.container{
+    padding: 10px 12%;
+}
+
+.info h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight: 400;
+    font-family: Roboto,sans-serif;
+
+}
+
+.info{
+    position: relative;
+}
+
+.info img{
+    width: 100%;
+    height: 430px;
+}
+
+.profile-box1{
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    left: 190px;
+    bottom: -100px;
+    background: white;
+}
+
+.profile_img{
+    width: 100%;
+    height: 100% !important;
+}
+.profile-box2{
+    width: 380px;
+    height: 380px;
+    position: absolute;
+    right: 190px;
+    top: 380px;
+    background: white;
+}
+
+.profile-box2 h5{
+    font-family: Roboto,sans-serif;;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn{
+    border: 2px solid black;
+    padding: 10px 30px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    
+}
+
+.text_content{
+    padding: 75px 20px;
+    text-align: center;
+}
+
+
+
+
+.box-2{
+    margin-top: 200px;
+}
+
+.tradition{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.col_1{
+    text-align: center;
+    flex-basis: 60%
+}
+
+.col_1 h2{
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.col_1 h5{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-family: Roboto,sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 50px;
+
+}
+
+.col_2{
+    width: 440px;
+    height: 590px;
+}
+
+.col_2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.box-3{
+    background: #000;
+    margin-top: 50px;
+    color: #fff;
+    padding: 10px 20%;
+}
+
+.Certifications{
+    text-align: center;
+    padding: 30px 15%;
+}
+
+.Certifications h5{
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: Roboto,sans-serif;
+}
+
+.Certifications h2{
+    line-height: 1.5;
+    font-size: 40px;
+    margin: 0;
+}
+
+
+.icon{
+    font-size: 56px;
+    color: #fff;
+}
+
+.building{
+    text-align: center;
+}
+
+.service{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.box-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.box-4 h5{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+}
+
+.Healthcare_text{
+    text-align: center;
+    flex-basis: 500px;
+}
+
+.img_div{
+    width: 500px;
+    height: 510px;
+}
+
+.img_div img{
+    width: 100%;
+    height: 100%;
+}
+
+.icons_div{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    flex-basis: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icon1{
+    font-size: 56px;
+}
+
+.box-5{
+    background: #000;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.box5_header{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.project_img{
+    display: flex;
+}
+
+.box-6{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.world_img{
+    flex-basis: 500px;
+    align-self: center;
+}
+
+.world_img img{
+    width: 100%;
+}
+
+.world_text{
+    text-align: center;
+    flex-basis: 500px;
+}
+
+.world_text p{
+    margin-bottom: 30px;
+}
+
+.world_text h3{
+    font-family: Roboto,sans-serif;
+    letter-spacing: 2px;
+}
+
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.address{
+    flex-basis: 570px;
+    text-align: center;
+    font-family: Roboto,sans-serif
+}
+
+.address h6{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: Roboto,sans-serif;
+}
+
+.address h4{
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: Roboto,sans-serif;
+}
+
+.contact{
+    flex-basis: 570px;
+    text-align: center;
+
+}
+
+.contact h1{
+    font-size: 35px;
+    line-height: 1.1;
+    font-weight: 700;
+}
+
+.contact p{
+    font-family: 'Open Sans',sans-serif
+    
+}
+
+.copyright{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media(max-width: 600px){
+    body {
+        font-family: "Montserrat", sans-serif;
+        font-family: "Roboto", sans-serif;
+        font-family: "Titillium Web", sans-serif;
+        background: #f2f2f2;
+        box-sizing: border-box;
+        border: 0;
+        margin: 0;
+      }
+      
+      a{
+          text-decoration: none;
+      }
+      
+      /* .navbar{
+          position: sticky;
+          top: 0;
+       } */
+      
+      .navWrapper{
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          justify-content: space-between;
+          margin: 15px 10px;
+      }
+      
+      .screen_size{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          margin-right: 70px;
+      }
+      
+      
+      .navWrapper i{
+          font-size: 25px;
+          color: gray;
+      }
+      
+      .box-1{
+          margin-top: 50px;
+      }
+      
+      .container{
+          padding: 10px 12%;
+      }
+      
+      .info h1{
+          text-align: center;
+          font-size: 50px;
+          font-weight: 400;
+          font-family: Roboto,sans-serif;
+      
+      }
+      
+      .info{
+        position: relative;
+      }
+      
+      .info img{
+          width: 100%;
+          height: 430px;
+      }
+      
+      .profile-box1{
+          width: 300px;
+          height: 300px;
+          position: absolute;
+          left: 80px;
+          bottom: -100px;
+          background: white;
+      }
+      
+      .profile_img{
+          width: 100%;
+          height: 100% !important;
+      }
+      .profile-box2{
+          position: absolute;
+          width: 300px;
+          height: 300px;
+          left: 80px;
+          top: 700px;
+          background: white;
+      }
+      
+      .profile-box2 h5{
+          font-family: Roboto,sans-serif;;
+          letter-spacing: 2px;
+          line-height: 1.5;
+          font-size: 20px;
+          font-weight: 500;
+          margin-bottom: 20px;
+      }
+      
+      .btn{
+          border: 2px solid black;
+          padding: 10px 30px;
+          background: white;
+          color: black;
+          letter-spacing: 2px;
+          
+      }
+      
+      .text_content{
+          padding: 75px 20px;
+          text-align: center;
+      }
+      
+      
+      
+      
+      .box-2{
+          margin-top: 500px;
+      }
+      
+      .tradition{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: column;
+      
+      }
+      
+      .col_1{
+          text-align: center;
+          margin-bottom: 50px;
+      }
+      
+      .col_1 h2{
+          font-size: 40px;
+          margin: 0;
+          margin-bottom: 10px;
+      }
+      
+      .col_1 h5{
+          font-weight: 500;
+          line-height: 1.5;
+          letter-spacing: 2px;
+          font-family: Roboto,sans-serif;
+          text-align: center;
+          font-size: 20px;
+          margin: 0;
+          margin-bottom: 50px;
+      
+      }
+      
+      .col_2{
+          width: 440px;
+          height: 590px;
+      }
+      
+      .col_2 img{
+          width: 100%;
+          height: 100%;
+      }
+      
+      
+      .box-3{
+          background: #000;
+          margin-top: 50px;
+          color: #fff;
+          padding: 10px 20%;
+      }
+      
+      .Certifications{
+          text-align: center;
+          padding: 30px 0;
+      }
+      
+      .Certifications h5{
+          line-height: 1.5;
+          font-size: 20px;
+          font-family: Roboto,sans-serif;
+      }
+      
+      .Certifications h2{
+          line-height: 1.5;
+          font-size: 40px;
+          margin: 0;
+      }
+      
+      
+      .icon{
+          font-size: 56px;
+          color: #fff;
+      }
+      
+      .building{
+          text-align: center;
+      }
+      
+      .service{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 70px;
+      }
+      
+      .box-4{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-top: 100px;
+      }
+      
+      .box-4 h5{
+          font-size: 20px;
+          letter-spacing: 2px;
+          font-weight: 500;
+          line-height: 1.5;
+          font-family: Roboto,sans-serif;
+      }
+      
+      .Healthcare_text{
+          text-align: center;
+          flex-basis: 500px;
+      }
+      
+      .img_div{
+          width: 500px;
+          height: 510px;
+      }
+      
+      .img_div img{
+          width: 100%;
+          height: 100%;
+      }
+      
+      .icons_div{
+          display: flex;
+          flex-direction: column;
+          gap: 100px;
+          flex-basis: 500px;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+      }
+      
+      .icon1{
+          font-size: 56px;
+      }
+      
+      .box-5{
+          background: #000;
+          color: #fff;
+          margin-top: 100px;
+      }
+      
+      .box5_header{
+          text-align: center;
+          padding: 50px 0;
+      }
+      
+      .project_img{
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .box-6{
+          margin-top: 100px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          margin-bottom: 100px;
+      }
+      
+      .world_img{
+          flex-basis: 500px;
+          align-self: center;
+      }
+      
+      .world_img img{
+          width: 100%;
+      }
+      
+      .world_text{
+          text-align: center;
+          flex-basis: 500px;
+      }
+      
+      .world_text p{
+          margin-bottom: 30px;
+      }
+      
+      .world_text h3{
+          font-family: Roboto,sans-serif;
+          letter-spacing: 2px;
+      }
+      
+      .footer{
+          background: #000;
+          color: #fff;
+          padding: 80px 0;
+      }
+      
+      .footer{
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          
+      }
+      
+      .address{
+          flex-basis: 570px;
+          text-align: center;
+          font-family: Roboto,sans-serif
+      }
+      
+      .address h6{
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 1.2;
+          font-family: Roboto,sans-serif;
+      }
+      
+      .address h4{
+          font-size: 20px;
+          line-height: 1.5;
+          letter-spacing: 2px;
+          font-weight: 500;
+          font-family: Roboto,sans-serif;
+      }
+      
+      .contact{
+          flex-basis: 570px;
+          text-align: center;
+      
+      }
+      
+      .contact h1{
+          font-size: 35px;
+          line-height: 1.1;
+          font-weight: 700;
+      }
+      
+      .contact p{
+          font-family: 'Open Sans',sans-serif
+          
+      }
+      
+      .copyright{
+          background-color: #333;
+          color: #fff;
+          text-align: center;
+          padding: 20px 0;
+      }
+}
